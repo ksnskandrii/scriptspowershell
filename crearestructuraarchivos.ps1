@@ -1,4 +1,4 @@
-# Ruta base donde se creará la estructura
+﻿# Ruta base donde se creará la estructura
 #$base = "C:\estructura\vehiculos"
 $base = ".\"
 # Crear estructura de carpetas
@@ -16,5 +16,5 @@ foreach ($folder in $folders) {
 }
 
 # Mostrar estructura en forma de árbol
-Tree $base
+#Tree $base
 
